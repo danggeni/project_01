@@ -8,6 +8,11 @@ public class blogMainCtrl {
 
 	@RequestMapping("/main")
 	public String main (){
-		return "blog/blogMain";
+		return "/blog/blogMain";
+	} 
+	
+	@RequestMapping("/login")
+	public String logn (){
+		return "/common/login";
 	} 
 }
